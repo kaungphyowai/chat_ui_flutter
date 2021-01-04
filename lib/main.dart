@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_chat_ui_starter/constants.dart';
+import 'package:flutter_chat_ui_starter/screens/home_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,11 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Chat UI',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        primaryColor: Colors.red,
+        accentColor: Color(0xFFFEF9EB),
       ),
+      home: Home_Screen(),
     );
   }
 }
