@@ -5,12 +5,12 @@ import 'package:flutter_chat_ui_starter/widgets/recent_chats.dart';
 
 import '../constants.dart';
 
-class Home_Screen extends StatefulWidget {
+class HomeScreen extends StatefulWidget {
   @override
-  _Home_ScreenState createState() => _Home_ScreenState();
+  _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _Home_ScreenState extends State<Home_Screen> {
+class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     ThemeColor.getColor(context);
